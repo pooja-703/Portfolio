@@ -1,0 +1,235 @@
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: 100vh;
+    }
+    .menubtn {
+        top: 10px;
+        right: 0px;
+        margin: 5px;
+    }
+    .closebtn {
+        top: 0px;
+        right: 3px;
+    }
+    .sidebar .logodiv {
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    .sidebar ul li {
+        margin: 0px;
+    }
+    .homepage .heading {
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    .hey {
+        width: 210px;
+    }
+    .homepage .heading span {
+        font-weight: 700;
+    }
+    .homepage .h1second {
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .homepage .mainimgdiv .mainimg {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        margin-top: 0px;
+    }
+    .skills {
+        width: 100%;
+        margin: 0px;
+    }
+    .profskills {
+        width: 100%;
+        margin: 0px;
+        margin-top: 10px;
+        border-top-left-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .skillscontainer {
+        justify-content: center;
+    }
+    .askcontainer .content {
+        padding: 0px;
+    }
+    .askmaincontainer {
+        margin-bottom: 0px;
+    }
+    .askmaincontainer .askcontainer {
+        padding: 10px;
+        margin: 10px 0px;
+        width: 95%;
+        border-radius: 30px;
+    }
+    .askcontainer .content .para1 {
+        font-size: 35px;
+    }
+    .askcontainer .content .para2 {
+        text-align: left;
+    }
+    .askcontainer form .askcontainer img {
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .aboutcontainer {
+        width: 100%;
+        padding: 5px;
+    }
+    /* aobut box media query */
+    .aboutcontainer {
+        width: 100%;
+        padding: 0px;
+    }
+    .aboutcontainer .content1 {
+        width: 95%;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    .aboutcontainer .content1 img {
+        width: 200px;
+        height: 200px;
+    }
+    .aboutcontainer .content1 .info form button {
+        margin: 35px 0px 20px 0px;
+    }
+    .contact-content {
+        width: 100%;
+    }
+    .contact-cont #contacth1 {
+        font-size: 66px;
+        color: rgb(0, 0, 0);
+        margin-top: 40px;
+    }
+    .contact-content form {
+        width: 96%;
+        margin-right: 0px;
+        background: rgba(250, 174, 9);
+        border-radius: 20px;
+    }
+    .contact-content form #text,
+    #email {
+        width: 90%;
+    }
+    .contact-content form textarea {
+        width: 90%;
+    }
+    .contact-content form button {
+        width: 80%;
+    }
+    .other-detail {
+        width: 100%;
+        margin: 0px;
+    }
+    .other-detail .other-content {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .other-content .number,
+    .email {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .other-detail img {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        width: 70%;
+        height: 100%;
+    }
+    .fa-arrow-alt-circle-down {
+        margin-top: 0px;
+    }
+    .visitbox {
+        width: 100%;
+    }
+    .skills h1 {
+        font-size: 25px;
+    }
+    .profskills h1 {
+        font-size: 25px;
+    }
+    .footer .images {
+        flex-direction: column;
+    }
+    .footer span {
+        margin-right: 0px;
+    }
+    .footer img {
+        margin: 0px;
+    }
+}
+
+@media (max-width:800px) {
+    .sidebar {
+        left: -900px;
+    }
+    .homepage {
+        justify-content: center;
+    }
+    .homepage .mainimg {
+        width: 250px;
+        height: 250px;
+    }
+    .mainimg {
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:1044px) {
+    .homepage .mainimg {
+        width: 250px;
+        height: 250px;
+    }
+    .mainimg {
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .askmaincontainer .askcontainer {
+        justify-content: center;
+    }
+    .askcontainer .content {
+        width: 100%;
+    }
+    .askcontainer img {
+        margin-right: 0px;
+        width: 100%;
+        margin: 0px 20px 20px 20px;
+    }
+}
+
+@media (min-width:770px) and (max-width:1044px) {
+    .contact-content {
+        width: 100%;
+    }
+    .contact-content form {
+        width: 100%;
+    }
+    .other-detail {
+        width: 100%;
+    }
+}
+
+@media (max-width:456px) {
+    .askcontainer button {
+        width: 100%;
+    }
+    .contact-cont #contacth1 {
+        width: 100%;
+        font-size: 45px;
+    }
+}

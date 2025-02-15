@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="Media-quary.css">
+
+    <style>
+
+    </style>
+    <script src="https://kit.fontawesome.com/001bbf285f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Visiting Card -->
+    <div class="visitbox" id="visitbox">
+        <img src="https://img.icons8.com/ios-glyphs/40/000000/macos-close.png" id="close" onclick="close2()" />
+        <h1>Welcome</h1>
+        <hr>
+        <div class="content">
+            Hii There, I'm Pooja Chavda. I have Created this portfolio just for practice project . Visit every section of portfolio & give me A feedback
+        </div>
+    </div>
+
+    <!-- main iamge section -->
+    <img src="https://img.icons8.com/material-outlined/50/000000/medium-icons.png" alt="" class="menubtn" onclick="open1()" id="menubtn">
+
+    <!-- sidebar section -->
+    <div class="sidebar" id="sidebar">
+
+        <img src="https://img.icons8.com/material-rounded/50/000000/cloud-cross.png" alt="" class="closebtn" onclick="close1()">
+        <div class="scontent">
+
+            <div class="logodiv">
+                <img src="self.jpeg" alt="" class="logo">
+            </div>
+
+            <ul>
+                <hr>
+                <li id="li1" onclick="closeside()"> <a href=""><button>Home</button></a>
+                </li>
+                <li id="li2">
+                    <a href="#about"> <button> About</button></a>
+                </li>
+                <li id="li4"> <a href="#contact"><button>Contect Me</button></a>
+                </li>
+                <li id="li5"> <a href="#feedback"><button>Feedback</button></a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="maincontainer">
+        <!-- The CSS CURVES -->
+        <div class="custom-shape-divider-top-1625253410">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <!-- homepage section -->
+        <div class="homepage">
+            <div class="heading">
+                <h1 class="hey">hey!!</h1>
+                <h1 class="h1second">I am <span> Pooja Chavda</span><br> Web developer/ IT Student</h1>
+            </div>
+            <div class="mainimgdiv">
+                <img src="earth.gif" alt="" class="mainimg">
+
+            </div>
+        </div>
+
+        <!-- skills -->
+        <div class="skillscontainer">
+            <!-- techniacal skills -->
+            <div class="skills">
+
+                <h1>Technical Skills</h1>
+                <li>
+                    <h3>hTML5</h3><span class="persent">90%</span><span class="bar"><span class="html"></span></span>
+                </li>
+                <li>
+                    <h3>CSS3</h3><span class="persent">60%</span><span class="bar"><span class="CSS3"></span></span>
+                </li>
+                <li>
+                    <h3>Java Script</h3><span class="persent">30%</span><span class="bar"><span class="JavaScript"></span></span>
+                </li>
+                <li>
+                    <h3>C Languge</h3><span class="persent">80%</span><span class="bar"><span class="CLanguge"></span></span>
+                </li>
+                <li>
+                    <h3>C++</h3><span class="persent">30%</span><span class="bar"><span class="Cplus"></span></span>
+                </li>
+            </div>
+            <!-- Professional skills -->
+            <div class="profskills">
+                <h1> Professional Skills</h1>
+                <div class="profskillcontent">
+                    <div id="box1" class="box">
+                        <p>Communication</p>
+                        <div class="progresbox"></div>
+                        <h3>75%</h3>
+                    </div>
+                    <div id="box2" class="box">
+                        <p>Team Work</p>
+                        <div class="progresbox"></div>
+                        <h3>75%</h3>
+                    </div>
+                    <div id="box3" class="box">
+                        <p>Project Management</p>
+                        <div class="progresbox"></div>
+                        <h3>40%</h3>
+                    </div>
+                    <div id="box4" class="box">
+                        <p>Creativity</p>
+                        <div class="progresbox"></div>
+                        <h3>75%</h3>
+                    </div>
+                    <div id="box5" class="box">
+                        <p>Curiocity</p>
+                        <div class="progresbox"></div>
+                        <h3>100%</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Asking for Project To The People -->
+        <span id="contact"></span>
+        <div class="askmaincontainer">
+            <div class="askcontainer">
+                <div class="content">
+                    <p class="para1">do you have a project in your mind ?</p>
+                    <p class="para2">if you have a project that you want to carry out, do not hesitate and tell me what it is, and what can i do for you, contact me directly from here.</p>
+                    <form action="Contact-Form.html" target="_blank">
+                        <button class="btn1"> contact me</button>
+                    </form>
+
+                </div>
+                <img src="https://media2.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif?cid=ecf05e47a3ks0vzokb8rw1c57169yc55eganp4nyro3xw9b2&rid=giphy.gif&ct=g" alt="">
+
+            </div>
+        </div>
+
+        <!-- about section -->
+        <span id="about"></span>
+        <div class="aboutcontainer">
+
+            <div class="content1">
+                <h1>About Me</h1>
+                <img src="https://media0.giphy.com/media/xTiN0FXnoSlDhSjgR2/giphy.gif?cid=ecf05e47dm38l5t6n29hg3ahvxnq56iq8jq9r971fja176uc&rid=giphy.gif&ct=g" alt="">
+                <p>Hii, i'm a front-end developer,passionate about creating and developing web interface.i don't have any experiance yet i can do my best in evey quality pproject.Dream To become a best full stack developer</p>
+
+                <div class="info">
+                    <div class="boxes" id="name"> <i class="fas fa-user"></i>Pooja Chavda</div>
+                    <div class="boxes" id="number"> <i class="fas fa-phone-alt"></i> 7863017145
+                    </div>
+                    <div class="boxes" id="location"> <i class="fas fa-street-view"></i>Vadodara, Gujarat</div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--Feedback Form -->
+
+        <span id="feedback"></span>
+        <div class="contact-cont">
+            <div class="contact-content">
+                <form action="feedbackthanks.html" target="_blank">
+                    <h1 id="contacth1">Feedback</h1>
+                    <input type="text" name="" id="text" placeholder="Name">
+                    <input type="email" id="email" placeholder="E-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Messege . . ."></textarea>
+                    <button>Send Message</button>
+                </form>
+                <div class="other-detail">
+                    <div class="other-content">
+                        <div class="number">
+                            <h1><i class="fas fa-phone-alt"></i>Call Me </h1>
+                            <p>7863017145</p>
+                            <button><a href="https://api.whatsapp.com/send?phone=7863017145" target="_blank">Whatsapp</a></button></div>
+
+                        <div class="email">
+                            <h1><i class="far fa-envelope"></i>E-mail</h1>
+                            <p>poojachavda010@gmail.com</p>
+                            <button><a href="https://mail.google.com/mail/?view=cm&fs=1&to=poojachavda010@gmail.com" target="_blank">G-Mail </a></button></div>
+                    </div>
+                    <h3><i class="fas fa-street-view"></i>location</h3>
+                    <div class="boxes" id="location"> Vadodara, Gujarat <br> <i class="fas fa-arrow-alt-circle-down" style="font-size: 40px;margin-top: 10px;"></i></div>
+
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <span>Follow Me On </span>
+            <div class="images">
+                <a href="https://www.instagram.com/poojaa_03_07?igsh=N2dhOGdiZjZqZXhl" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" /></a>
+                <a href="https://github.com/pooja-703" target="_blank"><img src="https://img.icons8.com/ios-filled/29/000000/github.png" /></a>
+            </div>
+            <div class="para">
+                <p>&#169; Copyrights resevered by Pooja Chavda
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function open1() {
+            document.getElementById("sidebar").style.left = "0px"
+                // document.getElementById("menubtn").style.display = "none"
+        }
+
+        function close1() {
+            document.getElementById("sidebar").style.left = "-950px"
+                // document.getElementById("menubtn").style.display = "block"
+
+        }
+
+        function closeside() {
+            document.getElementById("sidebar").style.left = "-950px"
+        }
+
+        function close2() {
+            document.getElementById("visitbox").style.display = "none"
+        }
+
+        setTimeout(function() {
+            document.getElementById("visitbox").style.display = "block"
+        }, 8000);
+    </script>
+
+</body>
+
+</html>
